@@ -1,5 +1,5 @@
 # Introduction
-- This ros2 package is the implementation of platoon architecture & control being done as part of my BTP under [Prof. Arnab Dey](https://www.iitr.ac.in/~EE/Arnab_Dey).    
+- This ROS2 package implements obstacle avoidance algorithms for single, multiple, and moving obstacles, along with platoon architecture and control, as part of my BTP project under [Prof. Arnab Dey](https://www.iitr.ac.in/~EE/Arnab_Dey).    
 
 - This doc provides step by step process to setup this package & implement the results on the turtlebot3 hardware (also compatible with simulation).   
 
