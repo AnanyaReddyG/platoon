@@ -377,16 +377,16 @@
   
   4. [Obstacle avoidance of one robot using ArUco marker and Intel RealSense Camera](https://drive.google.com/file/d/1dlP7sj0PyF6Sr1llmrMypnQDodX6jMBD/view?usp=sharing)
 
-      - The environment setup consists of an Intel RealSense camera mounted on the ceiling at the center of the room, providing a top-down view. Two robots are placed within the camera’s field of view. The obstacle avoidance algorithm is executed by running the [aruco_pose_node.py] and [camera_first.py] scripts, which processes the camera feed for real-time navigation and obstacle detection.
+      - The environment setup consists of an Intel RealSense camera mounted on the ceiling at the center of the room, providing a top-down view. Two robots are placed within the camera’s field of view. The obstacle avoidance algorithm is executed by running the [aruco_pose_node.py](platoon_control/src/aruco_pose_node.py) and [camera_first.py](platoon_control/src/camera_first.py) scripts, which processes the camera feed for real-time navigation and obstacle detection.
 
   5. [Single robot avoiding multiple obstacles in its path](https://drive.google.com/file/d/1fbesjFEPDyxVDBl8HGnJY1702PFZdQKJ/view?usp=sharing)
 
-      - The obstacle avoidance behavior in this setup is implemented by running the [lane_changing.py] file, which has core logic that manages lane change maneuvers and obstacle avoidance.
+      - The obstacle avoidance behavior in this setup is implemented by running the [lane_changing.py](platoon_control/src/lane_changing.py) file, which has core logic that manages lane change maneuvers and obstacle avoidance.
 
   6. [Obstacle avoidance using direct_to_goal logic](https://drive.google.com/file/d/11IKp8m76IymTMJbJOfiRmIsZZsAaL20j/view?usp=sharing)
 
-      - Here, the obstacle avoidance logic from [direct_to_goal.py] is utilized. As observed in the RViz path visualization, once the robot passes the obstacle, it proceeds directly toward the goal without attempting to return to its initial lane.
+      - Here, the obstacle avoidance logic from [direct_to_goal.py](platoon_control/src/direct_to_goal.py) is utilized. As observed in the RViz path visualization, once the robot passes the obstacle, it proceeds directly toward the goal without attempting to return to its initial lane.
 
   7. [Obstacle avoidance using back_to_lane logic](https://drive.google.com/file/d/11suMc-pnLZQfknodl26EQ0NcGngPLmh2/view?usp=sharing)
 
-      - The obstacle avoidance logic utilized here is from the [back_to_goal.py] file, which guides the robot to return to its initial lane after overtaking an obstacle.
+      - The obstacle avoidance logic utilized here is from the [back_to_lane.py](platoon_control/src/back_to_lane.py) file, which guides the robot to return to its initial lane after overtaking an obstacle.
