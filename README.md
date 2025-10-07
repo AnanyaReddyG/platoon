@@ -7,7 +7,10 @@
 
 - The platoon control is implemented using the leader-follower trajectory control approach.     
 
-- Static and dynamic obstacle avoidance is tested for simple environment by considering it as a lane changing problem for the current vehicle (robot).   
+- Static and dynamic obstacle avoidance is tested in a simplified environment using two approaches. 
+
+    - The first is a naive method where overtaking decisions depend on the shape and size of the obstacle.
+    - The second approach divides the environment into lanes, enabling structured navigation where the size of the obstacle does not affect the decision; the robot performs a complete lane change whenever it detects an obstacle in its current lane.
 
 - Following terminology is used in this doc :   
 
