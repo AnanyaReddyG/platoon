@@ -153,7 +153,7 @@
   cd ~/btp_ws/src
   git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
   git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
-  git clone https://github.com/ab31mohit/platoon.git
+  git clone https://github.com/AnanyaReddyG/platoon.git
   cd ~/btp_ws/src/turtlebot3/
   rm -rf turtlebot3_cartographer/ turtlebot3_navigation2/ turtlebot3_example/
   cd ~/btp_ws/
@@ -248,7 +248,7 @@
 
   ```bash    
   cd ~/turtlebot3_ws/src
-  git clone https://github.com/ab31mohit/platoon.git
+  git clone https://github.com/AnanyaReddyG/platoon.git
   ```
 
 - Update the params in this package according to your robot namespace : 
